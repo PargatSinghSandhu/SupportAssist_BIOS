@@ -1,3 +1,6 @@
+Get-ChildItem "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe"
+
+
 >> Write-Host "BIOS update process started. Reboot will be required if successful."
 Detected Dell Model: Latitude 7400
 Invoke-WebRequest : Server Error
