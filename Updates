@@ -1,4 +1,27 @@
 
+# Set BIOS Password
+$biosPassword = "1NURSIT4all!temp"
+
+# Get system model
+$systemModel = (Get-CimInstance -ClassName Win32_ComputerSystem).Model
+Write-Host "Detected Dell Model: $systemModel"
+
+# Dell Support site URL for BIOS updates (manual mapping or endpoint logic)
+# Example link – should be dynamically mapped in a robust version
+$biosDownloadUrl = "https://downloads.dell.com/FOLDER09876543M/1/Latitude_5530_1.25.0.exe"
+
+# Save location
+$installerPath = "$env:TEMP\BIOSUpdate.exe"
+
+# Download BIOS update
+Invoke-WebRequest -Uri $biosDownloadUrl -OutFile $installerPath
+
+# Run BIOS update with password
+Start-Process -FilePath $installerPath -ArgumentList "/s", "/p=$biosPassword" -Wait
+
+Write-Host "BIOS update process started. Reboot will be required if successful."
+
+
 PS C:\WINDOWS\system32> cctk --setuppwd=1NURSIT4all!temp
 cctk : The term 'cctk' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
 the spelling of the name, or if a path was included, verify that the path is correct and try again.
