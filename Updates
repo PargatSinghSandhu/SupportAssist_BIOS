@@ -1,3 +1,38 @@
+$biosPassword = "1NURSIT4all!temp"
+$dcuPath = "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe"
+$installerUrl = "https://downloads.dell.com/FOLDER10826275M/1/DCU-CLI-Setup_4.8.0.421_A00.exe"
+$installerFile = "$env:TEMP\DellCommandUpdateCLI.exe"
+
+# Step 1: Check if dcu-cli.exe exists
+if (-Not (Test-Path $dcuPath)) {
+    Write-Host "Dell Command | Update CLI not found. Downloading..."
+    Invoke-WebRequest -Uri $installerUrl -OutFile $installerFile
+
+    Write-Host "Installing Dell Command | Update CLI silently..."
+    Start-Process -FilePath $installerFile -ArgumentList "/s" -Wait
+}
+else {
+    Write-Host "Dell Command | Update CLI is already installed."
+}
+
+# Step 2: Run the BIOS update with password
+if (Test-Path $dcuPath) {
+    Write-Host "Running BIOS update..."
+    Start-Process -FilePath $dcuPath `
+        -ArgumentList "/applyUpdates", "/reboot=enable", "/biospassword=$biosPassword" `
+        -Wait
+    Write-Host "BIOS update command initiated. The system may reboot if an update is applied."
+}
+else {
+    Write-Host "Failed to find or install Dell Command | Update CLI."
+}
+
+
+
+
+
+
+
 Get-ChildItem "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe"
 
 
