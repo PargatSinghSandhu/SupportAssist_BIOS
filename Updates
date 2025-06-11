@@ -1,0 +1,9 @@
+
+PS C:\WINDOWS\system32> cctk --setuppwd=1NURSIT4all!temp
+cctk : The term 'cctk' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cctk --setuppwd=1NURSIT4all!temp
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (cctk:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
