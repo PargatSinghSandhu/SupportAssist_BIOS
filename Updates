@@ -1,3 +1,24 @@
+>> Write-Host "BIOS update process started. Reboot will be required if successful."
+Detected Dell Model: Latitude 7400
+Invoke-WebRequest : Server Error
+404 - File or directory not found.
+The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+At line:16 char:1
++ Invoke-WebRequest -Uri $biosDownloadUrl -OutFile $installerPath
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-WebRequest], WebExc
+   eption
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeWebRequestCommand
+Start-Process : This command cannot be run due to the error: The system cannot find the file specified.
+At line:19 char:1
++ Start-Process -FilePath $installerPath -ArgumentList "/s", "/p=$biosP ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [Start-Process], InvalidOperationException
+    + FullyQualifiedErrorId : InvalidOperationException,Microsoft.PowerShell.Commands.StartProcessCommand
+
+BIOS update process started. Reboot will be required if successful.
+PS C:\WINDOWS\system32>
+
 
 # Set BIOS Password
 $biosPassword = "1NURSIT4all!temp"
