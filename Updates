@@ -1,3 +1,10 @@
+
+"1NURSIT4all!temp" | ConvertTo-SecureString -AsPlainText -Force | Export-Clixml -Path "$PSScriptRoot\Secure_pwd.xml"
+
+
+
+
+
 $biosPassword = "1NURSIT4all!temp"
 $dcuPath = "C:\Program Files (x86)\Dell\CommandUpdate\dcu-cli.exe"
 $installerUrl = "https://downloads.dell.com/FOLDER10826275M/1/DCU-CLI-Setup_4.8.0.421_A00.exe"
