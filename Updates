@@ -1,3 +1,27 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+Running script from: C:\Users\NursingIT\Desktop\SupportBIOS
+Enter BIOS Setup Password to Continue: ****************
+
+[INFO] Dell Command | Update CLI not found. Installing...
+[ERROR] Dell Command | Update installer not found at: C:\Users\NursingIT\Desktop\SupportBIOS\Dell-Command-Update-Application.exe
+
+Press Enter to close.:
+
+PS C:\WINDOWS\system32>
+
+
+
+
+
+
+
+
+
+
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 
 
