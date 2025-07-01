@@ -6,6 +6,29 @@ Install the latest PowerShell for new features and improvements! https://aka.ms/
 Running script from: C:\Users\NursingIT\Desktop\SupportBIOS
 Enter BIOS Setup Password to Continue: ****************
 
+[INFO] Current BIOS version: 1.39.0
+
+[INFO] Running Dell Command | Update...
+
+[INFO] BIOS version after update: 1.39.0
+
+[INFO] DCU Exit Code: 102
+[WARNING] No log file generated.
+
+[INFO] Script completed. Press Enter to close.:
+
+
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+Running script from: C:\Users\NursingIT\Desktop\SupportBIOS
+Enter BIOS Setup Password to Continue: ****************
+
 [INFO] Dell Command | Update CLI not found. Installing...
 [ERROR] Dell Command | Update installer not found at: C:\Users\NursingIT\Desktop\SupportBIOS\Dell-Command-Update-Application.exe
 
