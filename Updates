@@ -1,3 +1,271 @@
+Getting the list of all ETL files...
+
+Please wait for all of conversions to complete...
+
+
+================ Results from WULog_0 ================
+
+Input
+----------------
+File(s):
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.100922.478.2.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.102724.871.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.114122.054.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.124222.065.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.134321.455.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.142724.964.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.144421.951.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.154521.930.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.163539.079.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.163539.079.2.etl
+
+100.00%
+
+Output
+----------------
+DumpFile:           C:\Users\NURSIN~1\AppData\Local\Temp\WindowsUpdateLog\wuetl.XML.tmp.56e8cafe-ff3f-48d2-92a9-54fafa3c31c3.00000
+Warning:
+Some events do not match the schema.
+Please rerun the command with -lr to get less restricted XML dump
+The command completed successfully.
+
+==================================================
+
+
+================ Results from WULog_1 ================
+
+Input
+----------------
+File(s):
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250624.164623.877.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.2.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.3.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.4.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.5.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.6.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.7.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.8.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.9.etl
+
+100.00%
+
+Output
+----------------
+DumpFile:           C:\Users\NURSIN~1\AppData\Local\Temp\WindowsUpdateLog\wuetl.XML.tmp.56e8cafe-ff3f-48d2-92a9-54fafa3c31c3.00001
+Warning:
+Some events do not match the schema.
+Please rerun the command with -lr to get less restricted XML dump
+The command completed successfully.
+
+==================================================
+
+
+================ Results from WULog_2 ================
+
+Input
+----------------
+File(s):
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.10.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.11.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.12.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.13.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.14.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.15.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.16.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.17.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.18.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.19.etl
+
+100.00%
+
+Output
+----------------
+DumpFile:           C:\Users\NURSIN~1\AppData\Local\Temp\WindowsUpdateLog\wuetl.XML.tmp.56e8cafe-ff3f-48d2-92a9-54fafa3c31c3.00002
+Warning:
+Some events do not match the schema.
+Please rerun the command with -lr to get less restricted XML dump
+The command completed successfully.
+
+==================================================
+
+
+================ Results from WULog_3 ================
+
+Input
+----------------
+File(s):
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.20.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.21.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.22.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.23.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.24.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.25.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.26.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.27.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.28.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.29.etl
+
+100.00%
+
+Output
+----------------
+DumpFile:           C:\Users\NURSIN~1\AppData\Local\Temp\WindowsUpdateLog\wuetl.XML.tmp.56e8cafe-ff3f-48d2-92a9-54fafa3c31c3.00003
+Warning:
+Some events do not match the schema.
+Please rerun the command with -lr to get less restricted XML dump
+The command completed successfully.
+
+==================================================
+
+
+================ Results from WULog_4 ================
+
+Input
+----------------
+File(s):
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.30.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.31.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.32.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.33.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250625.061958.567.34.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250630.112151.088.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250630.112151.088.2.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250630.114150.186.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250630.120521.953.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250630.122716.322.1.etl
+
+100.00%
+
+Output
+----------------
+DumpFile:           C:\Users\NURSIN~1\AppData\Local\Temp\WindowsUpdateLog\wuetl.XML.tmp.56e8cafe-ff3f-48d2-92a9-54fafa3c31c3.00004
+Warning:
+Some events do not match the schema.
+Please rerun the command with -lr to get less restricted XML dump
+The command completed successfully.
+
+==================================================
+
+
+================ Results from WULog_5 ================
+
+Input
+----------------
+File(s):
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.2.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.3.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.4.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.5.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.6.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.7.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.8.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.9.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.10.etl
+
+100.00%
+
+Output
+----------------
+DumpFile:           C:\Users\NURSIN~1\AppData\Local\Temp\WindowsUpdateLog\wuetl.XML.tmp.56e8cafe-ff3f-48d2-92a9-54fafa3c31c3.00005
+Warning:
+Some events do not match the schema.
+Please rerun the command with -lr to get less restricted XML dump
+The command completed successfully.
+
+==================================================
+
+
+================ Results from WULog_6 ================
+
+Input
+----------------
+File(s):
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.11.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.12.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.13.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.14.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.15.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.16.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.17.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.18.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.19.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.20.etl
+
+100.00%
+
+Output
+----------------
+DumpFile:           C:\Users\NURSIN~1\AppData\Local\Temp\WindowsUpdateLog\wuetl.XML.tmp.56e8cafe-ff3f-48d2-92a9-54fafa3c31c3.00006
+Warning:
+Some events do not match the schema.
+Please rerun the command with -lr to get less restricted XML dump
+The command completed successfully.
+
+==================================================
+
+
+================ Results from WULog_7 ================
+
+Input
+----------------
+File(s):
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.21.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.22.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.23.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.24.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.25.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.26.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.27.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.28.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.29.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.30.etl
+
+100.00%
+
+Output
+----------------
+DumpFile:           C:\Users\NURSIN~1\AppData\Local\Temp\WindowsUpdateLog\wuetl.XML.tmp.56e8cafe-ff3f-48d2-92a9-54fafa3c31c3.00007
+Warning:
+Some events do not match the schema.
+Please rerun the command with -lr to get less restricted XML dump
+The command completed successfully.
+
+==================================================
+
+
+================ Results from WULog_8 ================
+
+Input
+----------------
+File(s):
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.100354.087.31.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.105930.096.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.110124.626.1.etl
+     C:\WINDOWS\logs\WindowsUpdate\WindowsUpdate.20250701.113144.383.1.etl
+
+100.00%
+
+Output
+----------------
+DumpFile:           C:\Users\NURSIN~1\AppData\Local\Temp\WindowsUpdateLog\wuetl.XML.tmp.56e8cafe-ff3f-48d2-92a9-54fafa3c31c3.00008
+Warning:
+Some events do not match the schema.
+Please rerun the command with -lr to get less restricted XML dump
+The command completed successfully.
+
+==================================================
+
+
+WindowsUpdate.log written to C:\Users\NursingIT\Desktop\WindowsUpdate.log
+
+
+
+
+
+
+
 
 Type "manage-bde -?" for usage.
 PS C:\WINDOWS\system32> manage-bde -status
