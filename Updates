@@ -1,3 +1,48 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\WINDOWS\system32> manage-bde -protectors -disable C:
+BitLocker Drive Encryption: Configuration Tool version 10.0.26100
+Copyright (C) 2013 Microsoft Corporation. All rights reserved.
+
+Key protectors are disabled for volume C:.
+PS C:\WINDOWS\system32> cd "C:\Users\NursingIT\Desktop\SupportBIOS"
+PS C:\Users\NursingIT\Desktop\SupportBIOS> .\"SupportAssistBIOS.ps1"
+.\SupportAssistBIOS.ps1 : File C:\Users\NursingIT\Desktop\SupportBIOS\SupportAssistBIOS.ps1 cannot be loaded. The file
+C:\Users\NursingIT\Desktop\SupportBIOS\SupportAssistBIOS.ps1 is not digitally signed. You cannot run this script on
+the current system. For more information about running scripts and setting execution policy, see
+about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ .\"SupportAssistBIOS.ps1"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS C:\Users\NursingIT\Desktop\SupportBIOS> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+PS C:\Users\NursingIT\Desktop\SupportBIOS> .\"SupportAssistBIOS.ps1"
+Running script from: C:\Users\NursingIT\Desktop\SupportBIOS
+Enter BIOS Setup Password to Continue: ****************
+
+[INFO] Current BIOS version: 1.39.0
+
+[INFO] Running Dell Command | Update...
+
+[INFO] BIOS version after update: 1.39.0
+
+[INFO] DCU Exit Code: 102
+[WARNING] No log file generated.
+
+[INFO] Script completed. Press Enter to close.:
+
+PS C:\Users\NursingIT\Desktop\SupportBIOS>
+
+
+
+
+
+
+
 Getting the list of all ETL files...
 
 Please wait for all of conversions to complete...
